@@ -1,0 +1,40 @@
+/* ***** Fonts import ***** */
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Rokkitt', serif;
+}
+
+#home{
+    background: url('../images/bg_header.jpg') no-repeat center right;
+    background-size: cover;
+}
+
+.navbar-brand{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+h2>strong{
+    font-size: 2em;
+}
+
+#header-section{
+    height: calc(100vh - 50px); /* **** viewport height - nav height **** */
+}
+
+.btn{
+    border-radius:0;
+}
