@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* ***** Common styles ***** */
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -11,6 +13,8 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
     font-family: 'Rokkitt', serif;
 }
+
+/* ***** Home section ***** */
 
 #home{
     background: url('../images/bg_header.jpg') no-repeat center right;
@@ -35,6 +39,20 @@ h2>strong{
     height: calc(100vh - 50px); /* **** viewport height - nav height **** */
 }
 
+#learn-more-btn{
+    background: #36c4c5;
+}
+
+#download-btn{
+    background: #f52257;
+}
+
 .btn{
     border-radius:0;
+}
+
+/* *****  Features section ***** */
+
+#features{
+    color: #555;
 }
