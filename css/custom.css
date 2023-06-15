@@ -108,7 +108,6 @@ h2>strong{
 
 /* ***** History section ***** */
 
-
 #history{
     background: url('../images/bg_appareil_photo.jpg') no-repeat center center;
     background-size: cover;
@@ -116,4 +115,10 @@ h2>strong{
 
 #history article{
     background: rgba(109, 163, 187, .6);
+}
+
+/* ***** Photos section ***** */
+
+#photos{
+    background: #ddd;
 }
