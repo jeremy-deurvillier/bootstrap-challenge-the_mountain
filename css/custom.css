@@ -53,7 +53,8 @@ h2>strong{
 
 /* *****  Features section ***** */
 
-#features{
+#features,
+#blog{
     color: #555;
 }
 
@@ -68,7 +69,8 @@ h2>strong{
     background: rgba(109, 163, 187, .6);
 }
 
-#about h2{
+#about h2,
+#blog h2{
     font-size: 2.6em;
 }
 
@@ -88,4 +90,18 @@ h2>strong{
 
 .statistics span:last-child{
     font-size: 1.8em;
+}
+
+/* ***** Blog section ***** */
+
+#blog-btn{
+    background: #f52257;
+}
+
+.blog-img-container{
+    width: 100%;
+}
+
+.blog-img-container > img{
+    width: 100%;
 }
