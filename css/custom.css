@@ -70,8 +70,10 @@ h2>strong{
 }
 
 #about h2,
-#blog h2{
+#blog h2,
+#contact h2{
     font-size: 2.6em;
+    line-height: 1;
 }
 
 #about h4{
@@ -94,7 +96,8 @@ h2>strong{
 
 /* ***** Blog section ***** */
 
-#blog-btn{
+#blog-btn,
+button[type="submit"]{
     background: #f52257;
 }
 
@@ -121,4 +124,24 @@ h2>strong{
 
 #photos{
     background: #ddd;
+}
+
+/* ***** Contact section ***** */
+
+#contact{
+    background: url('../images/bg_newsletter.jpg') no-repeat center left;
+    background-size: cover;
+}
+
+#contact>div{
+    background: rgba(0, 0, 0, .4);
+    backdrop-filter: blur(10px);
+}
+
+.form-control{
+    border-radius:0;
+}
+
+input[type="email"]{
+    color: #555;
 }
