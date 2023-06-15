@@ -145,3 +145,17 @@ button[type="submit"]{
 input[type="email"]{
     color: #555;
 }
+
+/* ***** Footer ***** */
+
+footer{
+    background: #24323b;
+}
+
+.social-container>a{
+    text-align: center;
+    display: block;
+    width: 30px; min-width: 30px;
+    height: 30px; min-height: 30px;
+    margin: 0 4px 0 4px;
+}
