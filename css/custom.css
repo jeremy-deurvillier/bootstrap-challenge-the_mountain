@@ -56,3 +56,36 @@ h2>strong{
 #features{
     color: #555;
 }
+
+/* ***** About section ***** */
+
+#about{
+    background: url('../images/bg_nuage.jpg') no-repeat center right;
+    background-size: cover;
+}
+
+#about article{
+    background: rgba(109, 163, 187, .6);
+}
+
+#about h2{
+    font-size: 2.6em;
+}
+
+#about h4{
+    font-size: 2em;
+}
+
+.statistics{
+    width: 55%; min-width: 55%;
+}
+
+.statistics span:first-child{
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.statistics span:last-child{
+    font-size: 1.8em;
+}
